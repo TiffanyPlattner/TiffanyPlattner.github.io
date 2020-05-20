@@ -4,7 +4,7 @@
 		
 	}
 
-     h1 { 
+    h1 { 
 	   font-family: "Verdana", bold, sans-serif;
     }
 	
@@ -28,11 +28,15 @@
 		font-family: "Verdana", bold, sans-serif;
 	}
 	
-	#myHeading{
+	h1.myHeading{
 		text-align: center; 
        color: white;
 	   font-size: 90px;
 	   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	
+	#h1size{
+		font-size: 60px;
 	}
 
 	div {
@@ -54,3 +58,17 @@
 	img.picformat{
 		margin:5px 17px 5px;
 	}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+p {
+	font-family: "Georgia", sans-serif;
+	
+}
+
+#myPar{
+font-size: 20px;	
+}
